@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/mcld/network/google"
   version = "3.4.0"
   # insert required variables here
-  network_name = "default2"
+  network_name = "tcld-prod"
   project_id = var.project
   subnets = [
   {
